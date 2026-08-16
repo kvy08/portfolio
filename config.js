@@ -10,9 +10,10 @@ const CONFIG = {
     name: "Kunj Yadav",
     nameStyled: ["Kunj", "Yadav"],          // Split for animated display
     role: "Full-Stack Developer",
-    tagline: "Backend-Focused Full-Stack Developer",
+    // tagline: "Backend-Focused Full-Stack Developer",
+    tagline: "Backend Full-Stack Developer",
     taglineAccent: "Java • Spring Boot",
-    bio: "I have 6+ years of experience building backend systems and web applications using Java and Spring Boot. I build APIs, develop features, and improve existing systems. I like keeping things simple, clean, and easy to maintain.",
+    bio: "I have 7 years of experience building backend systems and web applications using Java and Spring Boot. I build APIs, develop features, and improve existing systems. I like keeping things simple, clean, and easy to maintain.",
     location: "India 🇮🇳",
     available: true,                     // Toggle "Available for work" badge
     email: "yadavkunj08@gmail.com",
@@ -22,12 +23,12 @@ const CONFIG = {
     // OR use a URL: "https://yourcdn.com/photo.jpg"
     profileImage: "images/me.png",
     profileFallbackEmoji: "👨‍💻",
-    resumeUrl: "#",                      // Link to your resume PDF
+    resumeUrl: "./resume/Kunj-Resume-2026.pdf",                      // Link to your resume PDF
   },
 
   // ── Dashboard Stats ─────────────────────────────────────────
   stats: [
-    { value: "6+", label: "Years Experience", icon: "⚡", suffix: "" },
+    { value: "7", label: "Years Experience", icon: "⚡", suffix: "" },
     { value: "10", label: "Projects Delivered", icon: "🚀", suffix: "+" },
     { value: "", label: "Backend & Full-Stack Development", icon: "🛠", suffix: "" },
     { value: "", label: "Web & Cloud Applications", icon: "🌐", suffix: "" },
@@ -200,7 +201,7 @@ const CONFIG = {
   // ── Experience Timeline ──────────────────────────────────────
   experience: [
     {
-      period: "2019 – Present",
+      period: "2019 – 2026",
       role: "Software Engineer",
       company: "Fusion Softtech",
       type: "Full-time",
@@ -209,6 +210,17 @@ const CONFIG = {
         "Developed backend services for Routee communication platform",
         "Worked on OmniLearn LMS customization and feature development",
         "Built analytics dashboards and data processing features for ECLAIRS"
+      ]
+    },
+    {
+      period: "2026 – Present",
+      role: "Senior Software Engineer",
+      company: "Spec India",
+      type: "Full-time",
+      description: "Building and maintaining web applications using Java, Spring, Jasper. Working on backend APIs, frontend features, and system improvements.",
+      milestones: [
+        "Developed jasper reports for Phoenix-Ocean Quotation and Booking system",
+        "Working on migration of Phoenix-Ocean system from GWT to React and Spring"
       ]
     }
   ],
@@ -235,10 +247,10 @@ const CONFIG = {
 
   // ── Certifications ───────────────────────────────────────────
   certifications: [
-    { title: "AWS Certified Developer – Associate", issuer: "Amazon Web Services", year: "2023", icon: "☁️", color: "#FF9900" },
-    { title: "Java SE Programming", issuer: "Oracle", year: "2020", icon: "☕", color: "#f89820" },
-    { title: "Python for Data Science", issuer: "Coursera / IBM", year: "2021", icon: "🐍", color: "#3776AB" },
-    { title: "Spring & Hibernate", issuer: "Udemy", year: "2019", icon: "🌱", color: "#6DB33F" },
+    // { title: "AWS Certified Developer – Associate", issuer: "Amazon Web Services", year: "2023", icon: "☁️", color: "#FF9900" },
+    // { title: "Java SE Programming", issuer: "Oracle", year: "2020", icon: "☕", color: "#f89820" },
+    // { title: "Python for Data Science", issuer: "Coursera / IBM", year: "2021", icon: "🐍", color: "#3776AB" },
+    // { title: "Spring & Hibernate", issuer: "Udemy", year: "2019", icon: "🌱", color: "#6DB33F" },
   ],
 
   // ── Contact ──────────────────────────────────────────────────
